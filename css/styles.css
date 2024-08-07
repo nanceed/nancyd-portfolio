@@ -1,9 +1,46 @@
-h1 {
-    color: black;
-    font-family: 'Alegreya', serif;
-    font-weight: bold;
+:root {
+    --branding-color:#885df1;
+    --secondary-color:#fbf7f7;
+    --heading-font-family: 'Alegreya', serif;
+    --default-font-family: 'Jost', sans-serif;
 }
 
-p {
-    font-family: 'Jost', sans-serif;
+body{
+    font-family: var(--default-font-family);
 }
+
+h1 {
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 96px;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: var(--default-font-family);
+}
+    
+.home-hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+    
+.home-hero h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    color: 272142;
+    text-align: center;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 60px;
+}
+        
+    
