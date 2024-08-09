@@ -42,5 +42,13 @@ h2 {
     font-size: 18px;
     padding: 10px 60px;
 }
-        
+
+.img-thumbnail {
+    padding: 36px;
+    background-color: #f9f7fe;
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
     
