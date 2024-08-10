@@ -3,6 +3,7 @@
     --secondary-color:#f9f7fe;
     --heading-font-family: 'Alegreya', serif;
     --default-font-family: 'Jost', sans-serif;
+    --box-shadow: 0 8px 16px rgba(0, 0, 0, .15);
 }
 
 body{
@@ -64,6 +65,7 @@ h2 {
     border-radius: 15px;
     padding: 70px 60px;
     margin: 100px auto;
+    box-shadow: var(--box-shadow);
 
 }
 
@@ -77,14 +79,19 @@ h2 {
 
 .project-container a {
     text-decoration: none;
-    color: var(--branding-color);
+    color:white;
+    background-color: var(--branding-color);
     border: solid 1px var(--branding-color);
     border-radius: 10px;
     font-size: 18px;
     padding: 10px 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.project-container a:hover {
+    color:var(--branding-color);
+    background-color: #f9feff;
     
-
-
 }
 
 
