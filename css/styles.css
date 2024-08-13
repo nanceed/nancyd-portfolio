@@ -36,6 +36,28 @@ h2 {
     text-align: center;
 }
 
+.about-section {
+  padding: 160px 20px;  
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    line-height: 1.5;    
+}
+
+.about-section p {
+    line-height: 2;
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
 .btn-branding {
     background: var(--branding-color);
     border-radius: 15px;
@@ -94,5 +116,32 @@ h2 {
     
 }
 
+@media (max-width: 900px) {
+    h1 {
+        font-size: 50px;
+        line-height: 1.5;
+    }
 
+    h2 {
+        font-size: 44px;
+    }
+
+    .home-hero {
+        padding: 80px 20px;
+    }
+
+    .btn-branding {
+       font-size: 20px; 
+       padding: 20px 50px;
+    }
+
+    .img-thumbnail {
+        margin: 20px 30px 0 auto;
+    }
+
+    .about-section {
+        text-align: center;
+        padding: 30px;
+    }
+}
     
