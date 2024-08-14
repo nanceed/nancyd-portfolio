@@ -18,7 +18,8 @@ h1 {
     text-transform: capitalize;
 }
 
-h2 {
+h2,
+p {
     font-family: var(--default-font-family);
 }
 
@@ -76,7 +77,7 @@ h2 {
 
 .img-thumbnail {
     padding: 30px;
-    background-color: #f9f7fe;
+    background-color:var(--secondary-color);
     border-radius: 4px;
     max-width: 100%;
     height: auto
@@ -99,7 +100,8 @@ h2 {
     font-size: 20px;
 }
 
-.project-container a {
+.project-container a,
+.project-header a {
     text-decoration: none;
     color:white;
     background-color: var(--branding-color);
@@ -110,11 +112,30 @@ h2 {
     box-shadow: var(--box-shadow);
 }
 
-.project-container a:hover {
+.project-container a:hover,
+.project-header a:hover {
     color:var(--branding-color);
-    background-color: #f9feff;
+    background-color: var(--secondary-color);
     
 }
+
+.project-header {
+    background-color: var(--secondary-color);
+    padding: 70px 60px;
+}
+
+.project-header h1 {
+    font-size:90px;
+}
+
+.project-header h2 {
+    font-size: 32px;
+}
+
+.project-header p {
+    font-size: 16px;
+}
+
 
 @media (max-width: 900px) {
     h1 {
