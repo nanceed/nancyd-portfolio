@@ -20,6 +20,7 @@ h1 {
 }
 
 h2,
+h3,
 p {
     font-family: var(--default-font-family);
 }
@@ -159,7 +160,8 @@ p {
     font-size: 16px;
 }
 
-.websites {
+
+.images {
     margin: 70px 0;
 }
 
