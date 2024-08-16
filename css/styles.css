@@ -196,6 +196,30 @@ nav li.active a {
     color: var(--branding-color);
 }
 
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: var(--branding-color);
+    font-size: 30px;
+}
+
+footer .social-links i:hover {
+    transform: scale(1.5);
+    transition: all 100ms ease-in-out;
+}
+
+
 
 @media (max-width: 900px) {
     h1 {
