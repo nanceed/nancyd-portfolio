@@ -164,9 +164,10 @@ p {
     margin: 70px 0;
 }
 
-.nav-bar-brand {
+.logo {
     font-size: 60px; 
     text-decoration: none;
+    color: var(--branding-color);
 }
 
 nav {
