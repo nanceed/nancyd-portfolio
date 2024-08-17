@@ -151,6 +151,7 @@ p {
 
 .head-section h1 {
     font-size:90px;
+    margin: 0;
 }
 
 .head-section h2 {
@@ -160,6 +161,7 @@ p {
 .head-section p {
     font-size: 16px;
 }
+
 
 .images {
     margin: 70px 0;
