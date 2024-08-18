@@ -38,7 +38,7 @@ p {
 }
     
 .home-hero h2 {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
     color: 272142;
     text-align: center;
@@ -58,13 +58,13 @@ p {
 }
 
 .content-container h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.5;    
 }
 
 .content-container p {
     line-height: 2;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .content {
@@ -212,13 +212,20 @@ p {
 }
 
 .logo {
-    font-size: 60px; 
+    font-size: 64px; 
     text-decoration: none;
+    letter-spacing: 6.5;
+    color: black;
+}
+
+.logo:hover {
     color: var(--branding-color);
 }
 
 nav {
     padding: 10px 0;
+    margin-left: 40px;
+    font-size: 20px;
 }
 
 nav ul {
