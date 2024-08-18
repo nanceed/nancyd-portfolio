@@ -49,7 +49,7 @@ p {
 }
 
 .content-container {
-  padding: 110px 20px;  
+  padding: 110px 65px;  
 }
 
 .content-container h1 {
@@ -69,6 +69,32 @@ p {
 
 .content {
     margin: 0 auto;
+}
+
+.content-skills-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.content-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.skill {
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    font-size: 18px;
+    background-color: var(--default-color);
+    margin-right: 10px;
+    font-weight: 600;
+    border-radius: 5px;   
+    background-color: rgba(153, 153, 153, 0.2);
+    color: #666;
 }
 
 .img-fluid-nancy {
