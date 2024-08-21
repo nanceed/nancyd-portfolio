@@ -49,7 +49,8 @@ p {
 }
 
 .content-container {
-  padding: 110px 65px;  
+  padding: 110px 65px;
+  padding-right: 180px;  
 }
 
 .content-container h1 {
@@ -58,13 +59,13 @@ p {
 }
 
 .content-container h2 {
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.5;    
 }
 
 .content-container p {
     line-height: 2;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .content {
@@ -82,6 +83,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
+    padding-left: 50px;
 }
 
 .skill {
@@ -128,6 +130,11 @@ p {
     border-radius: 4px;
     max-width: 100%;
     height: auto
+}
+
+.project-images {
+    padding: 6px;
+    border-radius: 5px;
 }
 
 .body-of-work {
@@ -193,6 +200,11 @@ p {
     font-size: 16px;
 }
 
+.app-description p {
+    text-align: start;
+    padding: 15px;
+}
+
 .contact-info {
     padding: 18px;
 }
@@ -206,9 +218,9 @@ p {
     color: black;
 }
 
-
 .images {
     margin: 70px 0;
+    padding: 40px;
 }
 
 .navbar-brand {
@@ -238,8 +250,6 @@ p {
 .navbar-nav .nav-link.active {
     color: var(--branding-color);
 }
-
-
 
 footer a {
     text-decoration: none;
@@ -274,26 +284,25 @@ footer .social-links i:hover {
 
 
 @media (max-width: 900px) {
-    nav ul {
-
-    }
-
-    nav a {
-
-    }
-    .home-hero {
+    .home-hero,
+    .content-container {
         padding: 50px 20px;
     }
     
-    .home-hero h1 {
-        font-size: 41px;
-        line-height: 1.5;
+    .home-hero h1,
+    .content-container h1,
+    .head-section h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .content-container h1 {
+        margin-top: 25px;
     }
 
     .home-hero h2 {
-        font-size: 26px;
+        font-size: 26px:
     }
-
 
     .body-of-work h2 {
         font-size: 26px;
@@ -312,9 +321,20 @@ footer .social-links i:hover {
         margin: 20px 30px 0 auto;
     }
 
-    .about-section {
+    .content-container h2 {
+        font-size: 18px;
         text-align: center;
-        padding: 30px;
     }
 }
+
+@media(max-width:768px) {
+    .body-of-work {
+        padding:0;
+    }
+}
+
+
+
+
+
     
