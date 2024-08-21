@@ -220,7 +220,6 @@ p {
 
 .images {
     margin: 70px 0;
-    padding: 40px;
 }
 
 .navbar-brand {
@@ -290,8 +289,7 @@ footer .social-links i:hover {
     }
     
     .home-hero h1,
-    .content-container h1,
-    .head-section h1 {
+    .content-container h1 {
         font-size: 45px;
         text-align: center;
     }
@@ -309,7 +307,7 @@ footer .social-links i:hover {
     }
 
     .body-of-work p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .btn-branding {
@@ -328,11 +326,19 @@ footer .social-links i:hover {
 }
 
 @media(max-width:768px) {
-    .body-of-work {
-        padding:0;
+    .head-section {
+        padding: 0px;
+    }
+
+    .head-section h1 {
+        font-size: 37px;
+        padding: 20px;
+    }
+
+    .images {
+        padding: 0px;
     }
 }
-
 
 
 
