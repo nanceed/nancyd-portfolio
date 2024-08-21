@@ -211,45 +211,35 @@ p {
     margin: 70px 0;
 }
 
-.logo {
+.navbar-brand {
     font-size: 64px; 
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px;
     text-decoration: none;
     letter-spacing: 6.5;
     color: black;
 }
 
-.logo:hover {
-    color: var(--branding-color);
-}
-
-nav {
-    padding: 10px 0;
-    margin-left: 40px;
+.navbar-nav {
+    padding: 40px;
     font-size: 20px;
 }
 
-nav ul {
-    padding: 40px;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    list-style: none;
-    line-height: 50px;
-    margin-right: 30px;
-}
-
-nav a {
+.navbar-link {
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
 }
 
-nav a:hover, 
-nav li.active a {
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover,
+.navbar-nav .nav-link.active {
     color: var(--branding-color);
 }
+
+
 
 footer a {
     text-decoration: none;
@@ -284,17 +274,33 @@ footer .social-links i:hover {
 
 
 @media (max-width: 900px) {
-    h1 {
-        font-size: 50px;
+    nav ul {
+
+    }
+
+    nav a {
+
+    }
+    .home-hero {
+        padding: 50px 20px;
+    }
+    
+    .home-hero h1 {
+        font-size: 41px;
         line-height: 1.5;
     }
 
-    h2 {
-        font-size: 44px;
+    .home-hero h2 {
+        font-size: 26px;
     }
 
-    .home-hero {
-        padding: 80px 20px;
+
+    .body-of-work h2 {
+        font-size: 26px;
+    }
+
+    .body-of-work p {
+        font-size: 15px;
     }
 
     .btn-branding {
