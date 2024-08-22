@@ -34,7 +34,7 @@ p {
 .home-hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 110px 20px;
+    padding: 60px 20px;
 }
     
 .home-hero h2 {
@@ -49,12 +49,11 @@ p {
 }
 
 .content-container {
-  padding: 110px 65px;
-  padding-right: 180px;  
+  padding: 60px 20px;  
 }
 
 .content-container h1 {
-    font-size: 90px;
+    font-size: 85px;
     line-height: 80px;
 }
 
@@ -64,8 +63,8 @@ p {
 }
 
 .content-container p {
-    line-height: 2;
-    font-size: 18px;
+    line-height: 30px;
+    font-size: 16.5px;
 }
 
 .content {
@@ -125,7 +124,7 @@ p {
 }
 
 .img-thumbnail {
-    padding: 30px;
+    padding: 6px;
     background-color:var(--secondary-color);
     border-radius: 4px;
     max-width: 100%;
@@ -155,7 +154,7 @@ p {
 }
 
 .body-of-work a,
-.head-section a {
+.content-container a {
     text-decoration: none;
     color:white;
     background-color: var(--branding-color);
@@ -167,37 +166,9 @@ p {
 }
 
 .body-of-work a:hover,
-.head-section a:hover {
+.content-container a:hover {
     color:var(--branding-color);
-    background-color: var(--secondary-color);
-    
-}
-
-.head-section {
-    background-color: var(--secondary-color);
-    padding: 50px;
-    display: block;
-    text-align: left;
-    margin: 32px;
-}
-
-.head-section .nancy-photo {
-    max-width: 400px;
-    display: block;
-    margin: 0 auto;
-}
-
-.head-section h1 {
-    font-size:90px;
-    margin: 5px;
-}
-
-.head-section h2 {
-    font-size: 32px;
-}
-
-.head-section p {
-    font-size: 16px;
+    background-color: var(--secondary-color);    
 }
 
 .app-description p {
@@ -206,11 +177,11 @@ p {
 }
 
 .contact-info {
-    padding: 18px;
+    padding: 50px;
 }
 
 .contact-header {
-    padding: 55px;
+    padding: 0;
 }
 
 .contact-info a {
@@ -280,8 +251,6 @@ footer .social-links i:hover {
 }
 
 
-
-
 @media (max-width: 900px) {
     .home-hero,
     .content-container {
@@ -323,24 +292,11 @@ footer .social-links i:hover {
         font-size: 18px;
         text-align: center;
     }
-}
 
-@media(max-width:768px) {
-    .head-section {
-        padding: 0px;
-    }
-
-    .head-section h1 {
-        font-size: 37px;
-        padding: 20px;
-    }
-
-    .images {
-        padding: 0px;
-    }
-}
-
-
-
-
+    a.nav-link {
+        margin: 0;
+        text-align: center;  
+        padding-right: 0;
     
+    }
+}
