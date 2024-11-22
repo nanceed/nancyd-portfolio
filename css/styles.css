@@ -109,12 +109,12 @@ p {
 
 .btn-branding {
     background: var(--branding-color);
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
     line-height: 27px;
     font-size: 28px;
-    padding: 20px 128px;
+    padding: 20px 83px;
 }
 
 .btn-branding:hover {
